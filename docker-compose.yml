@@ -2,7 +2,6 @@ version: "3"
 services:
   # service configuration for our database
   database:
-
     # use the preferred version of the official Postgres image
     # see https://hub.docker.com/_/postgres/
     image: postgres:9.4.5
@@ -12,9 +11,7 @@ services:
       - docker-example-postgres:/var/lib/postgresql/data
 
   # service configuration for our dockerized Rails app
-  app:
-
-    # use the Dockerfile next to this file
+  app: # use the Dockerfile next to this file
     build: .
     entrypoint: /usr/local/bin/entrypoint.sh
     command: bundle exec rails s -p 3000 -b "0.0.0.0"
@@ -33,8 +30,8 @@ services:
       - "3000:3000"
     # map our application source code, in full, to the application root of our container
     volumes:
-      - .:/var/www/consul:delegated
-      - bundle:/usr/local/bundle:delegated
+      - "$PWD:/var/www/consul"
+      - bundle:/usr/local/bundle
       - "$SSH_AUTH_SOCK:/tmp/agent.sock"
     environment:
       - SSH_AUTH_SOCK=/tmp/agent.sock
