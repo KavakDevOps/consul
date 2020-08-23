@@ -216,10 +216,10 @@ en:
     footer:
       accessibility: Accessibility
       conditions: Terms and conditions of use
-      consul: CONSUL application
+      consul: KAVAK Petitions application
       consul_url: https://github.com/consul/consul
       contact_us: For technical assistance visit
-      copyright: CONSUL, %{year}
+      copyright: KAVAK, %{year}
       description: This portal uses the %{consul} which is %{open_source}.
       open_source: open-source software
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -233,7 +233,7 @@ en:
       collaborative_legislation: Collaborative legislation
       debates: Debates
       locale: "Language:"
-      logo: CONSUL logo
+      logo: KAVAK Petitions logo
       management: Management
       moderation: Moderation
       valuation: Valuation
@@ -276,8 +276,8 @@ en:
       mark_as_unread: Mark as unread
       notifiable_hidden: This resource is not available anymore.
   map:
-    title: "Districts"
-    proposal_for_district: "Start a proposal for your district"
+    title: "Headquarters"
+    proposal_for_district: "Start a proposal for your headquarter"
     start_proposal: Create a proposal
   omniauth:
     facebook:
@@ -616,7 +616,7 @@ en:
       participate_button: "Participate in this poll"
       participate_button_expired: "Poll ended"
       no_geozone_restricted: "All city"
-      geozone_restricted: "Districts"
+      geozone_restricted: "Headquarters"
       geozone_info: "Can participate people in the Census of: "
       already_answer: "You already have participated in this poll"
       not_logged_in: "You must sign in or sign up to participate"
@@ -748,8 +748,8 @@ en:
         see_all: "See all"
     tags_cloud:
       tags: Trending
-      districts: "Districts"
-      districts_list: "Districts list"
+      districts: "Headquarters"
+      districts_list: "Headquarters list"
       categories: "Categories"
     target_blank: " (link opens in new window)"
     you_are_in: "You are in"
@@ -870,8 +870,8 @@ en:
       unfeasible: Unfeasible investment projects can not be supported
       not_voting_allowed: Voting phase is closed
       different_heading_assigned:
-        one: "You can only support investment projects in %{count} district. You have already supported investments in %{supported_headings}."
-        other: "You can only support investment projects in %{count} districts. You have already supported investments in %{supported_headings}."
+        one: "You can only support investment projects in %{count} headquarter. You have already supported investments in %{supported_headings}."
+        other: "You can only support investment projects in %{count} headquarters. You have already supported investments in %{supported_headings}."
   welcome:
     feed:
       most_active:

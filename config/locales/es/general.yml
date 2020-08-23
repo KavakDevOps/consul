@@ -216,7 +216,7 @@ es:
     footer:
       accessibility: Accesibilidad
       conditions: Condiciones de uso
-      consul: aplicación CONSUL
+      consul: aplicación KAVAK Petitions
       consul_url: https://github.com/consul/consul
       contact_us: Para asistencia técnica entra en
       copyright: KAVAK, %{year}
@@ -233,7 +233,7 @@ es:
       collaborative_legislation: Legislación colaborativa
       debates: Debates
       locale: "Idioma:"
-      logo: Logo de CONSUL
+      logo: Logo de KAVAK Petitions
       management: Gestión
       moderation: Moderar
       valuation: Evaluación

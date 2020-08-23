@@ -1009,7 +1009,7 @@ en:
         dates: "Dates"
         start_date: "Start Date"
         closing_date: "Closing Date"
-        geozone_restricted: "Restricted to districts"
+        geozone_restricted: "Restricted to headquarters"
       new:
         title: "New poll"
         submit_button: "Create poll"
@@ -1322,7 +1322,7 @@ en:
         back: Go back
       new:
         back: Go back
-        creating: Create district
+        creating: Create headquarter
       delete:
         success: Geozone successfully deleted
         error: This geozone can't be deleted since there are elements attached to it
@@ -1402,7 +1402,7 @@ en:
         vote_count: Votes
         participant_count: Participants
         votes_per_heading: Votes per heading
-        participants_per_district: Participants per district
+        participants_per_district: Participants per headquarter
       budget_supporting:
         title: "Supporting phase stats"
         headings: Headings

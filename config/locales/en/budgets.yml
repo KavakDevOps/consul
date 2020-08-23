@@ -132,8 +132,8 @@ en:
         already_supported: You have already supported this investment project. Share it!
         support_title: Support this project
         confirm_group:
-          one: "You can only support investments in %{count} district. If you continue you cannot change the election of your district. Are you sure?"
-          other: "You can only support investments in %{count} districts. If you continue you cannot change the election of your district. Are you sure?"
+          one: "You can only support investments in %{count} headquarter. If you continue you cannot change the election of your headquarter. Are you sure?"
+          other: "You can only support investments in %{count} headquarters. If you continue you cannot change the election of your headquarter. Are you sure?"
         supports:
           one: 1 support
           other: "%{count} supports"
@@ -160,7 +160,7 @@ en:
       link: Results
       page_title: "%{budget} - Results"
       heading: "Participatory budget results"
-      heading_selection_title: "By district"
+      heading_selection_title: "By headquarter"
       ballot_lines_count: Votes
       hide_discarded_link: Hide discarded
       show_all_link: Show all
@@ -177,7 +177,7 @@ en:
       link: "Milestones"
       page_title: "%{budget} - Milestones"
       heading: "Participatory budget Milestones"
-      heading_selection_title: "By district"
+      heading_selection_title: "By headquarter"
       no_winner_investments: "No winner investments in this state"
       filters:
         status:

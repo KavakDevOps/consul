@@ -7,10 +7,10 @@ en:
       official_level_4_name: Official position 4
       official_level_5_name: Official position 5
     geozones:
-      north_district: North District
-      west_district: West District
-      east_district: East District
-      central_district: Central District
+      north_district: North Headquarter
+      west_district: West Headquarter
+      east_district: East Headquarter
+      central_district: Central Headquarter
     organizations:
       human_rights: Human Rights
       neighborhood_association: Neighborhood Association
@@ -35,7 +35,7 @@ en:
       currency: €
       groups:
         all_city: All City
-        districts: Districts
+        districts: Headquarters
       valuator_groups:
         culture_and_sports: Culture & Sports
         gender_and_diversity: Gender & Diversity Policies
