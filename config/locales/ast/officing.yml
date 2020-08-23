@@ -5,7 +5,7 @@ ast:
     dashboard:
       index:
         title: Presidir mesa de votaciones
-        info: Aquí puedes validar documentos de ciudadanos y guardar los resultados de las urnas
+        info: Aquí puedes validar documentos de kavakos y guardar los resultados de las urnas
     menu:
       voters: Validar documento
     polls:

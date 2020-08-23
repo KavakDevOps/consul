@@ -70,8 +70,8 @@ en:
         one: Ballot sheet
         other: Ballot sheets
       proposal:
-        one: "Citizen proposal"
-        other: "Citizen proposals"
+        one: "Proposal"
+        other: "Proposals"
       site_customization/page:
         one: Custom page
         other: Custom pages

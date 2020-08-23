@@ -44,8 +44,8 @@ es-PE:
         one: "presidente de mesa"
         other: "presidentes de mesa"
       proposal:
-        one: "Propuesta ciudadana"
-        other: "Propuestas ciudadanas"
+        one: "Propuesta"
+        other: "Propuestas"
       site_customization/page:
         one: Página
         other: Páginas
@@ -66,7 +66,7 @@ es-PE:
         other: "Versiones del borrador"
       legislation/questions:
         one: "Pregunta"
-        other: "Preguntas ciudadanas"
+        other: "Preguntas"
       legislation/question_options:
         one: "Opción de respuesta cerrada"
         other: "Opciones de respuesta"
@@ -168,7 +168,7 @@ es-PE:
         title: "Pregunta"
       signature_sheet:
         signable_type: "Tipo de hoja de firmas"
-        signable_id: "ID Propuesta ciudadana/Propuesta inversión"
+        signable_id: "ID Propuesta/Propuesta inversión"
         document_numbers: "Números de documentos"
       site_customization/page:
         content: Contenido

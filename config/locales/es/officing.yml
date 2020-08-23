@@ -5,7 +5,7 @@ es:
     dashboard:
       index:
         title: Presidir mesa de votaciones
-        info: Aquí puedes validar documentos de ciudadanos y guardar los resultados de las urnas
+        info: Aquí puedes validar documentos de kavakos y guardar los resultados de las urnas
         no_shifts: No tienes turnos de presidente de mesa asignados hoy.
     menu:
       voters: Validar documento y votar

@@ -111,7 +111,7 @@ es-PE:
       section_footer:
         title: Ayuda sobre los debates
         description: Inicia un debate para compartir puntos de vista con otras personas sobre los temas que te preocupan.
-        help_text_1: "El espacio de debates ciudadanos está dirigido a que cualquier persona pueda exponer temas que le preocupan y sobre los que quiera compartir puntos de vista con otras personas."
+        help_text_1: "El espacio de debates está dirigido a que cualquier persona pueda exponer temas que le preocupan y sobre los que quiera compartir puntos de vista con otras personas."
         help_text_2: 'Para abrir un debate es necesario registrarse en %{org}. Los usuarios ya registrados también pueden comentar los debates abiertos y valorarlos con los botones de "Estoy de acuerdo" o "No estoy de acuerdo" que se encuentran en cada uno de ellos.'
     new:
       form:
@@ -421,7 +421,7 @@ es-PE:
         white: "En blanco"
         null_votes: "Nulos"
       results:
-        title: "Preguntas ciudadanas"
+        title: "Preguntas"
         most_voted_answer: "Respuesta más votada: "
   poll_questions:
     show:
@@ -601,7 +601,7 @@ es-PE:
     verification:
       i_dont_have_an_account: No tengo cuenta, quiero crear una y verificarla
       i_have_an_account: Ya tengo una cuenta que quiero verificar
-      question: '¿Tienes ya una cuenta en %{org_name}?'
+      question: "¿Tienes ya una cuenta en %{org_name}?"
       title: Verificación de cuenta
     welcome:
       go_to_index: Veja propostas e debates
@@ -638,4 +638,4 @@ es-PE:
     help:
       alt: Selecciona el texto que quieres comentar y pulsa en el botón con el lápiz.
       text: Para comentar este documento debes %{sign_in} o %{sign_up}. Después selecciona el texto que quieres comentar y pulsa en el botón con el lápiz.
-      title: '¿Cómo puedo comentar este documento?'
+      title: "¿Cómo puedo comentar este documento?"

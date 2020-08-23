@@ -47,8 +47,8 @@ ast:
         one: "presidente de mesa"
         other: "presidentes de mesa"
       proposal:
-        one: "Propuesta ciudadana"
-        other: "Propuestes ciudadanes"
+        one: "Propuesta"
+        other: "Propuestes"
       site_customization/page:
         one: Páxina
         other: Páxines
@@ -160,7 +160,7 @@ ast:
         title: "Entruga"
       signature_sheet:
         signable_type: "Tipu de fueya de firmes"
-        signable_id: "ID Propuesta ciudadana/Propuesta d'inversión"
+        signable_id: "ID Propuesta/Propuesta d'inversión"
         document_numbers: "Númberos de documentos"
       site_customization/page:
         content: Conteníu

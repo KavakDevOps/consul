@@ -4,7 +4,7 @@ ast:
       title: Alministración
     actions:
       actions: Acciones
-      confirm: '¿Tas seguru?'
+      confirm: "¿Tas seguru?"
       hide: Despintar
       hide_author: Bloquiar a l'autor
       restore: Volver amosar
@@ -69,7 +69,7 @@ ast:
         edit_groups: Editar grupos de partíes
         edit_budget: Editar presupuestu
       create:
-        notice: '¡Nueva campaña de presupuestos participativos creada con ésitu!'
+        notice: "¡Nueva campaña de presupuestos participativos creada con ésitu!"
       update:
         notice: Campaña de presupuestos participativos actualizada
       edit:
@@ -80,7 +80,7 @@ ast:
         actions: Acciones
         active: Activos
       new:
-        title: Nuevu presupuestu ciudadanu
+        title: Nuevu presupuestu
       winners:
         calculate: Calcular propuestes ganadores
         calculated: Calculando ganadoras, puede tardar un minutu.
@@ -175,7 +175,7 @@ ast:
       edit:
         title: Editar finxu
       create:
-        notice: '¡Nuevu finxu creáu con ésitu!'
+        notice: "¡Nuevu finxu creáu con ésitu!"
       update:
         notice: Finxu actualizáu
       delete:
@@ -550,7 +550,7 @@ ast:
       index:
         title: "Entruges"
         create: "Crear entruga pa votación"
-        no_questions: "Nun hai nenguna entruga ciudadana."
+        no_questions: "Nun hai nenguna entruga."
         filter_poll: Peñerar por votación
         select_poll: Escoyer votación
         questions_tab: "Entruges"
@@ -560,11 +560,11 @@ ast:
         table_question: "Entruga"
         table_poll: "Votación"
       edit:
-        title: "Editar entruga ciudadana"
+        title: "Editar entruga"
       new:
-        title: "Crear entruga ciudadana para la encuesta %{poll}"
+        title: "Crear entruga para la encuesta %{poll}"
       show:
-        proposal: Propuesta ciudadana orixinal
+        proposal: Propuesta orixinal
         author: Autor
         question: Entruga
         valid_answers: Respuestes válides

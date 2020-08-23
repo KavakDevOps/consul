@@ -5,7 +5,7 @@ en:
       subtitle: LEGAL NOTICE ON THE CONDITIONS OF USE, PRIVACY AND PROTECTION OF PERSONAL DATA OF THE OPEN GOVERNMENT PORTAL
       description: Information page on the conditions of use, privacy and protection of personal data.
     help:
-      title: "%{org} is a platform for citizen participation"
+      title: "%{org} is a platform for kavakers participation"
       guide: "This guide explains what each of the %{org} sections are for and how they work."
       menu:
         debates: "Debates"
@@ -17,15 +17,15 @@ en:
       debates:
         title: "Debates"
         description: "In the %{link} section you can present and share your opinion with other people on issues of concern to you related to the city. It is also a place to generate ideas that through the other sections of %{org} lead to concrete actions by the City Council."
-        link: "citizen debates"
+        link: "debates"
         feature: "You can open debates, comment and evaluate them with the <strong>I agree</strong> or <strong>I don't agree</strong>. For that you have to %{link}."
         feature_link: "register in %{org}"
         image_alt: "Buttons to rate the debates"
         figcaption: '"I agree" and "I disagree" buttons to rate the debates.'
       proposals:
         title: "Proposals"
-        description: "In the %{link} section you can make proposals for the City Council to carry them out. The proposals require support, and if they reach sufficient support, they are put to a public vote. The proposals approved in these citizens' votes are accepted by the City Council and carried out."
-        link: "citizen proposals"
+        description: "In the %{link} section you can make proposals for the City Council to carry them out. The proposals require support, and if they reach sufficient support, they are put to a public vote. The proposals approved in these votes are accepted by the City Council and carried out."
+        link: "proposals"
         image_alt: "Button to support a proposal"
         figcaption: 'Button to "Support" a proposal.'
       budgets:
@@ -42,7 +42,7 @@ en:
         feature_1_link: "register in %{org_name}"
       processes:
         title: "Processes"
-        description: "In the %{link} section, citizens participate in the drafting and modification of regulations affecting the city and can give their opinion on municipal policies in previous debates."
+        description: "In the %{link} section, kavakers participate in the drafting and modification of regulations affecting the city and can give their opinion on municipal policies in previous debates."
         link: "processes"
         feature: "To participate in the processes you have to %{link} and verify your account."
         feature_link: "register in %{org_name}"
@@ -143,7 +143,7 @@ en:
         title: Compatibility with standards and visual design
         description: 'All pages of this website comply with the <strong>Accessibility Guidelines</strong> or General Principles of Accessible Design established by the Working Group <abbr title="Web Accessibility Initiative" lang="en">WAI</abbr> belonging to W3C.'
     titles:
-      help: "What is %{org}? - Citizen participation"
+      help: "What is %{org}? - participation"
     verify:
       info: "To verify your account introduce your access data:"
       info_code: "Now introduce the code you received in letter:"

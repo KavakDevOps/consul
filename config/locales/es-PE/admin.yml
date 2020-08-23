@@ -4,7 +4,7 @@ es-PE:
       title: Administración
     actions:
       actions: Acciones
-      confirm: '¿Estás seguro?'
+      confirm: "¿Estás seguro?"
       hide: Ocultar
       hide_author: Bloquear al autor
       restore: Volver a mostrar
@@ -66,7 +66,7 @@ es-PE:
         edit_groups: Editar grupos de partidas
         edit_budget: Editar presupuesto
       create:
-        notice: '¡Nueva campaña de presupuestos participativos creada con éxito!'
+        notice: "¡Nueva campaña de presupuestos participativos creada con éxito!"
       update:
         notice: Campaña de presupuestos participativos actualizada
       edit:
@@ -81,7 +81,7 @@ es-PE:
         success_notice: Presupuesto eliminado correctamente
         unable_notice: No se puede eliminar un presupuesto con proyectos asociados
       new:
-        title: Nuevo presupuesto ciudadano
+        title: Nuevo presupuesto
       winners:
         calculate: Calcular propuestas ganadoras
         calculated: Calculando ganadoras, puede tardar un minuto.
@@ -591,7 +591,7 @@ es-PE:
         title: "Editar votación"
         submit_button: "Actualizar votación"
       show:
-        questions_tab: Preguntas ciudadanas
+        questions_tab: Preguntas
         booths_tab: Urnas
         officers_tab: Presidentes de mesa
         recounts_tab: Recuentos
@@ -604,27 +604,27 @@ es-PE:
         error_on_question_added: "No se pudo asignar la pregunta"
     questions:
       index:
-        title: "Preguntas ciudadanas"
+        title: "Preguntas"
         create: "Crear pregunta para votación"
-        no_questions: "No hay ninguna pregunta ciudadana."
+        no_questions: "No hay ninguna pregunta."
         filter_poll: Filtrar por votación
         select_poll: Seleccionar votación
-        questions_tab: "Preguntas ciudadanas"
+        questions_tab: "Preguntas"
         successful_proposals_tab: "Propuestas que han superado el umbral"
         create_question: "Crear pregunta para votación"
         table_proposal: "la propuesta"
         table_question: "Pregunta"
         table_poll: "Votación"
       edit:
-        title: "Editar pregunta ciudadana"
+        title: "Editar pregunta"
       new:
-        title: "Crear pregunta ciudadana para la encuesta %{poll}"
+        title: "Crear pregunta para la encuesta %{poll}"
       answers:
         images:
           add_image: "Añadir imagen"
           save_image: "Guardar imagen"
       show:
-        proposal: Propuesta ciudadana original
+        proposal: Propuesta original
         author: Autor
         question: Pregunta
         edit_question: Editar pregunta

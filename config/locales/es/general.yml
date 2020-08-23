@@ -126,7 +126,7 @@ es:
       section_footer:
         title: Ayuda sobre los debates
         description: Inicia un debate para compartir puntos de vista con otras personas sobre los temas que te preocupan.
-        help_text_1: "El espacio de debates ciudadanos está dirigido a que cualquier persona pueda exponer temas que le preocupan y sobre los que quiera compartir puntos de vista con otras personas."
+        help_text_1: "El espacio de debates está dirigido a que cualquier persona pueda exponer temas que le preocupan y sobre los que quiera compartir puntos de vista con otras personas."
         help_text_2: 'Para abrir un debate es necesario registrarse en %{org}. Los usuarios ya registrados también pueden comentar los debates abiertos y valorarlos con los botones de "Estoy de acuerdo" o "No estoy de acuerdo" que se encuentran en cada uno de ellos.'
     new:
       form:
@@ -191,7 +191,7 @@ es:
     site_customization/content_block: el bloque
     site_customization/page: la página
   geozones:
-    none: Toda la ciudad
+    none: Todo Kavak
   layouts:
     application:
       chrome: Google Chrome
@@ -307,7 +307,7 @@ es:
       form:
         submit_button: Crear propuesta
     created:
-      title: '¡Enhorabuena! Has dado el primer paso.'
+      title: "¡Enhorabuena! Has dado el primer paso."
       motivation: "Es importante preparar la campaña de lanzamiento de tu propuesta para que tenga éxito. Los primeros días son decisivos."
       motivation_2: "<strong>Si quieres recomendaciones para preparar la publicación deja tu propuesta como borrador y te guiaremos.</strong>"
       publish: No, quiero publicar la propuesta ya
@@ -386,7 +386,7 @@ es:
       select_order: Ordenar por
       select_order_long: "Estas viendo las propuestas"
       start_proposal: Crea una propuesta
-      title: Propuestas ciudadanas
+      title: Propuestas
       top: Top semanal
       top_link_proposals: Propuestas más apoyadas por categoría
       section_header:
@@ -395,11 +395,11 @@ es:
         help: Ayuda sobre las propuestas
       section_footer:
         title: Ayuda sobre las propuestas
-        description: Las propuestas ciudadanas son una oportunidad para que los vecinos y colectivos decidan directamente cómo quieren que sea su ciudad, después de conseguir los apoyos suficientes y de someterse a votación ciudadana.
+        description: Las propuestas son una oportunidad para que los kavakos decidan cómo quieren que sea su experiencia en Kavak. Ayuda a construir un mejor futuro para todos, presentando tus propuestas y consiguiendo suficiente apoyo de tus compañeros.
     new:
       form:
         submit_button: Crear propuesta
-      more_info: '¿Cómo funcionan las propuestas ciudadanas?'
+      more_info: "¿Cómo funcionan las propuestas?"
       recommendation_one: No escribas el título de la propuesta o frases enteras en mayúsculas. En internet eso se considera gritar. Y a nadie le gusta que le griten.
       recommendation_three: Disfruta de este espacio, de las voces que lo llenan, también es tuyo.
       recommendation_two: Cualquier propuesta o comentario que implique una acción ilegal será eliminada, también las que tengan la intención de sabotear los espacios de propuesta, todo lo demás está permitido.
@@ -414,7 +414,7 @@ es:
         guide: "Compártela para que la gente empiece a apoyarla."
         edit: "Antes de que se publique podrás modificar el texto a tu gusto."
         view_proposal: Ahora no, ir a mi propuesta
-      already_supported: '¡Ya has apoyado esta propuesta, compártela!'
+      already_supported: "¡Ya has apoyado esta propuesta, compártela!"
       comments:
         zero: Sin comentarios
         one: 1 Comentario
@@ -573,7 +573,7 @@ es:
         title: Previsualización del poster
         poster_title: "No te quedes mirando,"
         poster_subtitle: "¡apóyame! ;)"
-        intro_text: "<strong>Estoy participando en %{org}</strong> con mi propia propuesta ciudadana y sólo si tú también te sumas podré lograr el apoyo necesario para hacer la ciudad que todos queremos."
+        intro_text: "<strong>Estoy participando en %{org}</strong> con mi propia propuesta y sólo si tú también te sumas podré lograr el apoyo necesario para hacer el Kavak que todos queremos."
         proposal_code: "Código de la propuesta: %{code}"
         support: Apoya mi propuesta
         footer: "<strong>Entra en %{link} y apoya esta propuesta.</strong> Necesitamos ser muchos. Decide tu también. ¡Gracias!"
@@ -598,7 +598,7 @@ es:
         support_button: Apoyar esta propuesta
         share_in: Compartir en
         hi: "¡Hola!"
-        introduction: Te escribo para comunicarte que estoy participando en %{org}, la plataforma para que podamos decidir qué ciudad queremos. Y para ello, he creado mi propia propuesta ciudadana y ahora, ¡voy a necesitar tu apoyo! Pero no te preocupes porque es muy sencillo.
+        introduction: Te escribo para comunicarte que estoy participando en %{org}, la plataforma para que podamos decidir qué Kavak queremos. Y para ello, he creado mi propia propuesta y ahora, ¡voy a necesitar tu apoyo! Pero no te preocupes porque es muy sencillo.
         support: "Tan sólo tienes que hacer clic en el botón que verás a continuación 'Apoyar esta propuesta' y directamente podrás informarte acerca de ella antes de impulsarla. Sólo las propuestas que consigan el máximo apoyo se llevarán a cabo por parte del Ayuntamiento, y he pensado que tú ¡seguro que me ayudas a lograrlo!"
         share: "Y si además, me haces el gran favor de compartir mi propuesta con tus amigos, familiares y contactos ¡sería perfecto!"
   polls:
@@ -613,7 +613,7 @@ es:
       title: "Votaciones"
       participate_button: "Participar en esta votación"
       participate_button_expired: "Votación terminada"
-      no_geozone_restricted: "Toda la ciudad"
+      no_geozone_restricted: "Todo Kavak"
       geozone_restricted: "Distritos"
       geozone_info: "Pueden participar las personas empadronadas en: "
       already_answer: "Ya has participado en esta votación"
@@ -626,7 +626,7 @@ es:
         help: Ayuda sobre las votaciones
       section_footer:
         title: Ayuda sobre las votaciones
-        description: Las votaciones ciudadanas son un mecanismo de participación por el que la ciudadanía con derecho a voto puede tomar decisiones de forma directa.
+        description: Las votaciones son un mecanismo de participación por el cual los kavakos pueden tomar decisiones de forma directa.
       no_polls: "No hay votaciones abiertas."
     show:
       already_voted_in_booth: "Ya has participado en esta votación en urnas presenciales, no puedes volver a participar."
@@ -718,9 +718,9 @@ es:
           notice: "¡Has dejado de seguir este proyecto de gasto! <br> Ya no recibirás más notificaciones relacionadas con este proyecto."
       proposal:
         create:
-          notice: "¡Ahora estás siguiendo esta propuesta ciudadana! <br> Te notificaremos los cambios a medida que se produzcan para que estés al día."
+          notice: "¡Ahora estás siguiendo esta propuesta! <br> Te notificaremos los cambios a medida que se produzcan para que estés al día."
         destroy:
-          notice: "¡Has dejado de seguir esta propuesta ciudadana! <br> Ya no recibirás más notificaciones relacionadas con esta propuesta."
+          notice: "¡Has dejado de seguir esta propuesta! <br> Ya no recibirás más notificaciones relacionadas con esta propuesta."
     print:
       print_button: Imprimir esta información
     search: Buscar
@@ -788,7 +788,7 @@ es:
     index:
       visits: Visitas
       debates: Debates
-      proposals: Propuestas ciudadanas
+      proposals: Propuestas
       comments: Comentarios
       proposal_votes: Votos en propuestas
       debate_votes: Votos en debates
@@ -898,7 +898,7 @@ es:
     verification:
       i_dont_have_an_account: No tengo cuenta, quiero crear una y verificarla
       i_have_an_account: Ya tengo una cuenta que quiero verificar
-      question: '¿Tienes ya una cuenta en %{org_name}?'
+      question: "¿Tienes ya una cuenta en %{org_name}?"
       title: Verificación de cuenta
     welcome:
       go_to_index: Ahora no, ir a la página de inicio
@@ -939,7 +939,7 @@ es:
     help:
       alt: Selecciona el texto que quieres comentar y pulsa en el botón con el lápiz.
       text: Para comentar este documento debes %{sign_in} o %{sign_up}. Después selecciona el texto que quieres comentar y pulsa en el botón con el lápiz.
-      title: '¿Cómo puedo comentar este documento?'
+      title: "¿Cómo puedo comentar este documento?"
   links:
     form:
       delete_button: Borrar

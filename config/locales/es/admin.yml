@@ -4,7 +4,7 @@ es:
       title: Administración
     actions:
       actions: Acciones
-      confirm: '¿Estás seguro?'
+      confirm: "¿Estás seguro?"
       confirm_hide: Confirmar moderación
       hide: Ocultar
       hide_author: Bloquear al autor
@@ -81,7 +81,7 @@ es:
         admin_ballots: Gestionar urnas
         no_budgets: "No hay presupuestos participativos."
       create:
-        notice: '¡Presupuestos participativos creados con éxito!'
+        notice: "¡Presupuestos participativos creados con éxito!"
       update:
         notice: Presupuestos participativos actualizados
       edit:
@@ -109,7 +109,7 @@ es:
         unable_notice: No se puede eliminar un presupuesto con proyectos asociados
         unable_notice_polls: No se puede eliminar un presupuesto con una votación asociada
       new:
-        title: Nuevo presupuesto ciudadano
+        title: Nuevo presupuesto
       winners:
         calculate: Calcular proyectos ganadores
         calculated: Calculando ganadores, puede tardar un minuto.
@@ -361,8 +361,8 @@ es:
           create: Crear recurso o acción
           edit: Editar
           delete: Borrar
-          active: 'Si'
-          inactive: 'No'
+          active: "Si"
+          inactive: "No"
           title: Recursos y acciones
           action_title: Título
           action_type: Tipo
@@ -770,7 +770,7 @@ es:
         from: Dirección de correo electrónico que aparecerá como remitente de la newsletter
         body: Contenido del email
         body_help_text: Así es como verán el email los usuarios
-        send_alert: '¿Estás seguro/a de que quieres enviar esta newsletter a %{n} usuarios?'
+        send_alert: "¿Estás seguro/a de que quieres enviar esta newsletter a %{n} usuarios?"
     admin_notifications:
       create_success: Notificación creada correctamente
       update_success: Notificación actualizada correctamente
@@ -807,7 +807,7 @@ es:
         segment_recipient: Destinatarios
         preview_guide: "Así es como los usuarios verán la notificación:"
         sent_guide: "Así es como los usuarios ven la notificación:"
-        send_alert: '¿Estás seguro/a de que quieres enviar esta notificación a %{n} usuarios?'
+        send_alert: "¿Estás seguro/a de que quieres enviar esta notificación a %{n} usuarios?"
     system_emails:
       preview_pending:
         action: Previsualizar pendientes
@@ -1036,8 +1036,8 @@ es:
     questions:
       index:
         title: "Preguntas de votaciones"
-        create: "Crear pregunta ciudadana"
-        no_questions: "No hay ninguna pregunta ciudadana."
+        create: "Crear pregunta"
+        no_questions: "No hay ninguna pregunta."
         filter_poll: Filtrar por votación
         select_poll: Seleccionar votación
         questions_tab: "Preguntas"
@@ -1048,16 +1048,16 @@ es:
         table_poll: "Votación"
         poll_not_assigned: "Votación no asignada"
       edit:
-        title: "Editar pregunta ciudadana"
+        title: "Editar pregunta"
       new:
-        title: "Crear pregunta ciudadana para la votación %{poll}"
-        title_proposal: "Crear pregunta ciudadana"
+        title: "Crear pregunta para la votación %{poll}"
+        title_proposal: "Crear pregunta"
       answers:
         images:
           add_image: "Añadir imagen"
           save_image: "Guardar imagen"
       show:
-        proposal: Propuesta ciudadana original
+        proposal: Propuesta original
         author: Autor
         question: Pregunta
         edit_question: Editar pregunta
@@ -1205,7 +1205,7 @@ es:
       show:
         create_question: Añadir esta propuesta a una votación para ser votada
       form:
-        update: Actualizar propuesta ciudadana
+        update: Actualizar propuesta
       update:
         notice: Propuesta actualizada correctamente
     hidden_proposals:
@@ -1390,7 +1390,7 @@ es:
         debate_created: Debates
         visit: Visitas
         level_2_user: Usuarios nivel 2
-        proposal_created: Propuestas Ciudadanas
+        proposal_created: Propuestas
       budgets:
         no_data_before_balloting_phase: "No hay datos que mostrar hasta que la fase de votación no esté abierta."
         title: "Presupuestos participativos - Estadisticas de participación"
