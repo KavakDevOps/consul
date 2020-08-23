@@ -5,7 +5,7 @@ section "Creating Admin Notifications & Templates" do
 
     body_en: "Remember you can create a proposal with your ideas and "\
              "people will discuss & support it.",
-    body_es: "Recuerda que puedes crear propuestas y los ciudadanos las debatirán y apoyarán.",
+    body_es: "Recuerda que puedes crear propuestas y los kavakos las debatirán y apoyarán.",
 
     link: Setting["url"] + "/proposals",
     segment_recipient: "administrators"
