@@ -11,3 +11,26 @@
 .mt-3 {
   margin-top: 1rem;
 }
+
+.callout {
+  padding: 0.5rem;
+}
+
+.button.hollow{
+  border-color: $brand;
+  color: $brand;
+
+  &:hover{
+    border-color: $white;
+    color: $white;
+    background: $brand;
+  }
+
+  &.alert{
+    &:hover{
+      border-color: $white;
+      color: $white;
+      background: $failure;
+    }
+  }
+}

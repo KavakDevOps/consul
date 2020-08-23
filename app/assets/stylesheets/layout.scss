@@ -90,12 +90,12 @@ a {
 .button {
   background: $black;
   color: $white;
-
   font-size: $base-font-size;
 
   &:hover, &:focus {
     text-decoration: none !important;
-    background: $gray;
+    background: $white;
+    border: 1px $black solid;
     color: $black;
   }
 
@@ -765,7 +765,7 @@ header {
     padding-bottom: 0;
 
     button {
-      background: $border;
+      background: #f7f7f7;
       border: 1px solid #ccc;
       border-left: 0;
       color: $text;
@@ -1060,7 +1060,6 @@ form {
   }
 
   [type]:not([type=submit]):not([type=file]):not([type=checkbox]):not([type=radio]):not(.close-button) {
-    background: #f8f8f8;
     height: $line-height * 2;
     margin-bottom: rem-calc(16);
 
@@ -1465,7 +1464,7 @@ form {
 }
 
 .is-association {
-  background: #e38d83;
+  background: #d9edff;
 }
 
 .level-1 {
@@ -1568,6 +1567,7 @@ table {
   height: $line-height * 2 !important;
   position: relative;
   width: $line-height * 2 !important;
+  border-radius: 100%;
 
   &::before {
     content: "f";
@@ -1611,6 +1611,7 @@ table {
   height: rem-calc(48) !important;
   position: relative;
   width: rem-calc(48) !important;
+  border-radius: 100%;
 
   &::before {
     content: "A";
@@ -1688,6 +1689,7 @@ table {
   height: $line-height * 2 !important;
   position: relative;
   width: $line-height * 2 !important;
+  border-radius: 100%;
 
   &::before {
     content: "1";

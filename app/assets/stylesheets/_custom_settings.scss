@@ -3,26 +3,42 @@
 // * English: https://github.com/consul/consul/blob/master/CUSTOMIZE_EN.md#css
 // * Spanish: https://github.com/consul/consul/blob/master/CUSTOMIZE_ES.md#css
 
-$brand: #4c84e0;
-$dark: #0a4080;
+$brand: #0083e9;
+$dark: #051798;
 
 $link: $brand;
 $link-hover: $brand;
 
 $success: #8dca1d;
+$failure: #dd2c2c;
+$notification: #00cc82;
+
+$budget: #8043b9;
+$featured: #ffcc5a;
 
 $like: $success;
-$unlike: #dd2c2c;
+$unlike: $failure;
 
 $check: $success;
 
 $black: #000;
 $white: #fff;
-$gray: #ececec;
 
 $success-bg: $success;
 $success-border: $success;
 $color-success: $white;
 
-$featured: #ffcc5a;
+$alert-bg : $failure;
+$alert-border: $failure;
+$color-alert: $white;
 $proposals: $brand;
+
+$info-bg: $notification;
+$info-border: $notification;
+$color-info: $white;
+
+
+$admin-color: $brand;
+$sidebar: $brand;
+$sidebar-hover: $dark;
+$sidebar-active: $featured;
