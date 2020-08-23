@@ -37,7 +37,7 @@ describe "Signature sheets" do
       visit new_admin_signature_sheet_path
 
       fill_in "signature_sheet_title", with: "definitive signature sheet"
-      select "Citizen proposal", from: "signature_sheet_signable_type"
+      select "Proposal", from: "signature_sheet_signable_type"
       fill_in "signature_sheet_signable_id", with: proposal.id
       fill_in "signature_sheet_required_fields_to_verify", with: "12345678Z; 1234567L; 99999999Z"
       click_button "Create signature sheet"
@@ -92,7 +92,7 @@ describe "Signature sheets" do
       proposal = create(:proposal)
       visit new_admin_signature_sheet_path
 
-      select "Citizen proposal", from: "signature_sheet_signable_type"
+      select "Proposal", from: "signature_sheet_signable_type"
       fill_in "signature_sheet_signable_id", with: proposal.id
       fill_in "signature_sheet_required_fields_to_verify", with: "12345678Z, 31/12/1980, 28013; 99999999Z, 31/12/1980, 28013"
       click_button "Create signature sheet"
@@ -144,7 +144,7 @@ describe "Signature sheets" do
 
     visit admin_signature_sheet_path(signature_sheet)
 
-    expect(page).to have_content "Citizen proposal #{proposal.id}: #{signature_sheet.title}"
+    expect(page).to have_content "Proposal #{proposal.id}: #{signature_sheet.title}"
     expect(page).to have_content "12345678Z; 123A; 123B"
     expect(page).to have_content signature_sheet.created_at.strftime("%B %d, %Y %H:%M")
     expect(page).to have_content user.name

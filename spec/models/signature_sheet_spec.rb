@@ -43,7 +43,7 @@ describe SignatureSheet do
         proposal = create(:proposal)
         signature_sheet.signable = proposal
 
-        expect(signature_sheet.name).to eq("Citizen proposal #{proposal.id}")
+        expect(signature_sheet.name).to eq("Proposal #{proposal.id}")
       end
 
       it "returns name for budget investment signature sheets" do
@@ -61,7 +61,7 @@ describe SignatureSheet do
         proposal = create(:proposal)
         signature_sheet.signable = proposal
 
-        expect(signature_sheet.name).to eq("Citizen proposal #{proposal.id}: #{signature_sheet.title}")
+        expect(signature_sheet.name).to eq("Proposal #{proposal.id}: #{signature_sheet.title}")
       end
 
       it "returns name for budget investment signature sheets" do
@@ -79,7 +79,7 @@ describe SignatureSheet do
         proposal = create(:proposal)
         signature_sheet.signable = proposal
 
-        expect(signature_sheet.name).to eq("Citizen proposal #{proposal.id}")
+        expect(signature_sheet.name).to eq("Proposal #{proposal.id}")
       end
 
       it "returns name for budget investment signature sheets" do

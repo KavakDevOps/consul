@@ -3,8 +3,8 @@ require "rails_helper"
 describe "Localization" do
   scenario "Wrong locale" do
     I18n.with_locale(:es) do
-      create(:widget_card, title: "Bienvenido a CONSUL",
-                           description: "Software libre para la participación ciudadana.",
+      create(:widget_card, title: "Bienvenido a Kavak Petitions",
+                           description: "Software libre para la participación.",
                            link_text: "Más información",
                            link_url: "http://consulproject.org/",
                            header: true)
@@ -13,7 +13,7 @@ describe "Localization" do
     visit root_path(locale: :es)
     visit root_path(locale: :klingon)
 
-    expect(page).to have_text("Bienvenido a CONSUL")
+    expect(page).to have_text("Bienvenido a Kavak Petitions")
   end
 
   scenario "Available locales appear in the locale switcher" do

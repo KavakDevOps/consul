@@ -47,7 +47,7 @@ describe "Emails" do
       comment_on(proposal)
 
       email = open_last_email
-      expect(email).to have_subject("Someone has commented on your citizen proposal")
+      expect(email).to have_subject("Someone has commented on your proposal")
       expect(email).to deliver_to(proposal.author)
       expect(email).to have_body_text(proposal_path(proposal))
       expect(email).to have_body_text("To stop receiving these emails change your settings in")

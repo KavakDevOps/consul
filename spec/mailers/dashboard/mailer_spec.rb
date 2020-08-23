@@ -76,7 +76,7 @@ describe Dashboard::Mailer do
 
         expect(email).to deliver_from("CONSUL <noreply@consul.dev>")
         expect(email).to deliver_to(proposal.author)
-        expect(email).to have_subject("More news about your citizen proposal")
+        expect(email).to have_subject("More news about your proposal")
         expect(email).to have_body_text("Hello #{proposal.author.name},")
         expect(email).to have_body_text("As you know, on the #{proposal.created_at.day} day of "\
                                         "the #{proposal.created_at.strftime("%B")} you created "\
@@ -118,7 +118,7 @@ describe Dashboard::Mailer do
 
         expect(email).to deliver_from("CONSUL <noreply@consul.dev>")
         expect(email).to deliver_to(proposal.author)
-        expect(email).to have_subject("More news about your citizen proposal")
+        expect(email).to have_subject("More news about your proposal")
         expect(email).to have_body_text("Hello #{proposal.author.name},")
         expect(email).to have_body_text("As you know, on the #{proposal.published_at.day} day of "\
                                         "the #{proposal.published_at.strftime("%B")} you "\
@@ -173,19 +173,19 @@ describe Dashboard::Mailer do
 
       expect(email).to deliver_from("CONSUL <noreply@consul.dev>")
       expect(email).to deliver_to(proposal.author)
-      expect(email).to have_subject("Your draft citizen proposal is created")
+      expect(email).to have_subject("Your draft proposal is created")
       expect(email).to have_body_text("Hi #{proposal.author.name}!")
       expect(email).to have_body_text("Your #{proposal.title} proposal has been "\
                                       "successfully created.")
       expect(email).to have_body_text("Take advantage that your proposal is not public yet and "\
                                       "get ready to contact a lot of people.")
-      expect(email).to have_body_text("When you are ready publish your citizen proposal from this")
+      expect(email).to have_body_text("When you are ready publish your proposal from this")
       expect(email).to have_link "link", href: proposal_dashboard_url(proposal)
       expect(email).to have_body_text("We know that creating a proposal with a hook and getting "\
                                       "the necessary support can seem complicated. But don't "\
                                       "worry because we are going to help you!")
       expect(email).to have_body_text("You have a tool that will be your new best ally: "\
-                                      "The Citizen Proposals panel.")
+                                      "The Proposals panel.")
       expect(email).to have_body_text("Enter every day in the panel of your proposal to use the "\
                                       "tips and resources that we will share with you.")
       expect(email).to have_body_text("These tips, actions and resources will give you ideas and "\
@@ -237,7 +237,7 @@ describe Dashboard::Mailer do
 
       expect(email).to deliver_from("CONSUL <noreply@consul.dev>")
       expect(email).to deliver_to(proposal.author)
-      expect(email).to have_subject("Your citizen proposal is already "\
+      expect(email).to have_subject("Your proposal is already "\
                                     "published. Don't stop spreading!")
       expect(email).to have_body_text("Congratulations #{proposal.author.name}! Your proposal "\
                                       "#{proposal.title} has been created successfully.")

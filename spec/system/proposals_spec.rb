@@ -1093,7 +1093,7 @@ describe "Proposals" do
         fill_in "Write the text", with: "Schwifty"
         click_button "Filter"
 
-        expect(page).to have_content("There are 2 citizen proposals")
+        expect(page).to have_content("There are 2 proposals")
 
         within("#proposals") do
           expect(page).to have_content(proposal1.title)
@@ -1117,7 +1117,7 @@ describe "Proposals" do
           select Setting["official_level_1_name"], from: "advanced_search_official_level"
           click_button "Filter"
 
-          expect(page).to have_content("There are 2 citizen proposals")
+          expect(page).to have_content("There are 2 proposals")
 
           within("#proposals") do
             expect(page).to have_content(proposal1.title)
@@ -1140,7 +1140,7 @@ describe "Proposals" do
           select Setting["official_level_2_name"], from: "advanced_search_official_level"
           click_button "Filter"
 
-          expect(page).to have_content("There are 2 citizen proposals")
+          expect(page).to have_content("There are 2 proposals")
 
           within("#proposals") do
             expect(page).to have_content(proposal1.title)
@@ -1163,7 +1163,7 @@ describe "Proposals" do
           select Setting["official_level_3_name"], from: "advanced_search_official_level"
           click_button "Filter"
 
-          expect(page).to have_content("There are 2 citizen proposals")
+          expect(page).to have_content("There are 2 proposals")
 
           within("#proposals") do
             expect(page).to have_content(proposal1.title)
@@ -1186,7 +1186,7 @@ describe "Proposals" do
           select Setting["official_level_4_name"], from: "advanced_search_official_level"
           click_button "Filter"
 
-          expect(page).to have_content("There are 2 citizen proposals")
+          expect(page).to have_content("There are 2 proposals")
 
           within("#proposals") do
             expect(page).to have_content(proposal1.title)
@@ -1209,7 +1209,7 @@ describe "Proposals" do
           select Setting["official_level_5_name"], from: "advanced_search_official_level"
           click_button "Filter"
 
-          expect(page).to have_content("There are 2 citizen proposals")
+          expect(page).to have_content("There are 2 proposals")
 
           within("#proposals") do
             expect(page).to have_content(proposal1.title)
@@ -1232,7 +1232,7 @@ describe "Proposals" do
             select "Last 24 hours", from: "js-advanced-search-date-min"
             click_button "Filter"
 
-            expect(page).to have_content("There are 2 citizen proposals")
+            expect(page).to have_content("There are 2 proposals")
 
             within("#proposals") do
               expect(page).to have_content(proposal1.title)
@@ -1252,7 +1252,7 @@ describe "Proposals" do
             select "Last week", from: "js-advanced-search-date-min"
             click_button "Filter"
 
-            expect(page).to have_content("There are 2 citizen proposals")
+            expect(page).to have_content("There are 2 proposals")
 
             within("#proposals") do
               expect(page).to have_content(proposal1.title)
@@ -1272,7 +1272,7 @@ describe "Proposals" do
             select "Last month", from: "js-advanced-search-date-min"
             click_button "Filter"
 
-            expect(page).to have_content("There are 2 citizen proposals")
+            expect(page).to have_content("There are 2 proposals")
 
             within("#proposals") do
               expect(page).to have_content(proposal1.title)
@@ -1292,7 +1292,7 @@ describe "Proposals" do
             select "Last year", from: "js-advanced-search-date-min"
             click_button "Filter"
 
-            expect(page).to have_content("There are 2 citizen proposals")
+            expect(page).to have_content("There are 2 proposals")
 
             within("#proposals") do
               expect(page).to have_content(proposal1.title)
@@ -1315,7 +1315,7 @@ describe "Proposals" do
           fill_in "advanced_search_date_max", with: 1.day.ago
           click_button "Filter"
 
-          expect(page).to have_content("There are 2 citizen proposals")
+          expect(page).to have_content("There are 2 proposals")
 
           within("#proposals") do
             expect(page).to have_content(proposal1.title)
@@ -1337,7 +1337,7 @@ describe "Proposals" do
           fill_in "advanced_search_date_max", with: "wrong date"
           click_button "Filter"
 
-          expect(page).to have_content("There are 3 citizen proposals")
+          expect(page).to have_content("There are 3 proposals")
 
           within("#proposals") do
             expect(page).to have_content(proposal1.title)
@@ -1363,7 +1363,7 @@ describe "Proposals" do
 
           click_button "Filter"
 
-          expect(page).to have_content("There is 1 citizen proposal")
+          expect(page).to have_content("There is 1 proposal")
 
           within("#proposals") do
             expect(page).to have_content "Get Schwifty"
@@ -1380,7 +1380,7 @@ describe "Proposals" do
 
           click_button "Filter"
 
-          expect(page).to have_content("citizen proposals cannot be found")
+          expect(page).to have_content("proposals cannot be found")
 
           within "#js-advanced-search" do
             expect(page).to have_selector("input[name='search'][value='Schwifty']")
@@ -1398,7 +1398,7 @@ describe "Proposals" do
           fill_in "advanced_search_date_max", with: 1.day.ago.strftime("%d/%m/%Y")
           click_button "Filter"
 
-          expect(page).to have_content("citizen proposals cannot be found")
+          expect(page).to have_content("proposals cannot be found")
 
           within "#js-advanced-search" do
             expect(page).to have_select("advanced_search[date_min]", selected: "Customized")

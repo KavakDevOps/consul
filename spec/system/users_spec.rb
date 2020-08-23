@@ -439,13 +439,13 @@ describe "Users" do
 
         visit user_path(user, filter: "follows")
 
-        expect(page).to have_link("Citizen proposals", href: "#citizen_proposals")
+        expect(page).to have_link("Proposals", href: "#proposals")
       end
 
       scenario "Do not display proposals' tab when user is not following any proposal" do
         visit user_path(user, filter: "follows")
 
-        expect(page).not_to have_link("Citizen proposals", href: "#citizen_proposals")
+        expect(page).not_to have_link("Proposals", href: "#proposals")
       end
 
       scenario "Display proposals with link to proposal" do
@@ -454,7 +454,7 @@ describe "Users" do
         login_as user
 
         visit user_path(user, filter: "follows")
-        click_link "Citizen proposals"
+        first('[title="Go to page of Proposals"]').click
 
         expect(page).to have_content proposal.title
       end
