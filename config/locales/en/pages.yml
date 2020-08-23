@@ -16,7 +16,7 @@ en:
         processes: "Processes"
       debates:
         title: "Debates"
-        description: "In the %{link} section you can present and share your opinion with other people on issues of concern to you related to the city. It is also a place to generate ideas that through the other sections of %{org} lead to concrete actions by the City Council."
+        description: "In the %{link} section you can present and share your opinion with others on topics of interest to the team. It is also a place to generate ideas that through the other sections of %{org} lead to concrete actions by KAVAK."
         link: "debates"
         feature: "You can open debates, comment and evaluate them with the <strong>I agree</strong> or <strong>I don't agree</strong>. For that you have to %{link}."
         feature_link: "register in %{org}"
@@ -24,7 +24,7 @@ en:
         figcaption: '"I agree" and "I disagree" buttons to rate the debates.'
       proposals:
         title: "Proposals"
-        description: "In the %{link} section you can make proposals for the City Council to carry them out. The proposals require support, and if they reach sufficient support, they are put to a public vote. The proposals approved in these votes are accepted by the City Council and carried out."
+        description: "In the %{link} section you can make proposals for KAVAK to carry them out. The proposals require support, and if they reach sufficient support, they are put to a public vote. The proposals approved in these votes are accepted by KAVAK and carried out."
         link: "proposals"
         image_alt: "Button to support a proposal"
         figcaption: 'Button to "Support" a proposal.'

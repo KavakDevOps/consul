@@ -16,7 +16,7 @@ es:
         processes: "Legislación colaborativa"
       debates:
         title: "Debates"
-        description: "En la sección de %{link} puedes exponer y compartir tu opinión con otras personas sobre temas que te preocupan relacionados con la ciudad. También es un espacio donde generar ideas que a través de las otras secciones de %{org} lleven a actuaciones concretas por parte del Ayuntamiento."
+        description: "En la sección de %{link} puedes exponer y compartir tu opinión con otras personas sobre temas que te preocupan relacionados con la empresa. También es un espacio donde generar ideas que a través de las otras secciones de %{org} lleven a actuaciones concretas por parte de KAVAK."
         link: "debates"
         feature: "Puedes abrir debates, comentarlos y valorarlos con los botones de <strong>Estoy de acuerdo</strong> o <strong>No estoy de acuerdo</strong>. Para ello tienes que %{link}."
         feature_link: "registrarte en %{org}"
@@ -24,7 +24,7 @@ es:
         figcaption: 'Botones "Estoy de acuerdo" y "No estoy de acuerdo" para valorar los debates.'
       proposals:
         title: "Propuestas"
-        description: "En la sección de %{link} puedes plantear propuestas para que el Ayuntamiento las lleve a cabo. Las propuestas recaban apoyos, y si alcanzan los apoyos suficientes se someten a votación. Las propuestas aprobadas en estas votaciones son asumidas por el Ayuntamiento y se llevan a cabo."
+        description: "En la sección de %{link} puedes plantear propuestas para que la empresa las lleve a cabo. Las propuestas recaban apoyos, y si alcanzan los apoyos suficientes se someten a votación. Las propuestas aprobadas en estas votaciones son asumidas por KAVAK y se llevan a cabo."
         link: "propuestas"
         image_alt: "Botón para apoyar una propuesta"
         figcaption: 'Botón para "Apoyar" una propuesta.'
