@@ -7,10 +7,10 @@ es:
       official_level_4_name: Cargo oficial 4
       official_level_5_name: Cargo oficial 5
     geozones:
-      north_district: Distrito Norte
-      west_district: Distrito Oeste
-      east_district: Distrito Este
-      central_district: Districto Central
+      north_district: Sede Norte
+      west_district: Sede Oeste
+      east_district: Sede Este
+      central_district: Sede Central
     organizations:
       human_rights: Derechos Humanos
       neighborhood_association: Asociación Vecinal
@@ -32,10 +32,10 @@ es:
       environment: Medio Ambiente
     budgets:
       budget: Presupuesto Participativo
-      currency: '€'
+      currency: "€"
       groups:
         all_city: Toda la Ciudad
-        districts: Distritos
+        districts: Sedes
       valuator_groups:
         culture_and_sports: Cultura y Deportes
         gender_and_diversity: Políticas de Género y Diversidad

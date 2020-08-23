@@ -276,8 +276,8 @@ es:
       mark_as_unread: Marcar como no leída
       notifiable_hidden: Este elemento ya no está disponible.
   map:
-    title: "Distritos"
-    proposal_for_district: "Crea una propuesta para tu distrito"
+    title: "Sedes"
+    proposal_for_district: "Crea una propuesta para tu sede"
     start_proposal: Crea una propuesta
   omniauth:
     facebook:
@@ -614,7 +614,7 @@ es:
       participate_button: "Participar en esta votación"
       participate_button_expired: "Votación terminada"
       no_geozone_restricted: "Todo Kavak"
-      geozone_restricted: "Distritos"
+      geozone_restricted: "Sedes"
       geozone_info: "Pueden participar las personas empadronadas en: "
       already_answer: "Ya has participado en esta votación"
       not_logged_in: "Necesitas iniciar sesión o registrarte para participar"
@@ -746,8 +746,8 @@ es:
         see_all: "Ver todas"
     tags_cloud:
       tags: Tendencias
-      districts: "Distritos"
-      districts_list: "Listado de distritos"
+      districts: "Sedes"
+      districts_list: "Listado de sedes"
       categories: "Categorías"
     target_blank: " (se abre en ventana nueva)"
     you_are_in: "Estás en"
@@ -868,8 +868,8 @@ es:
       unfeasible: No se pueden votar propuestas inviables.
       not_voting_allowed: El periodo de votación está cerrado.
       different_heading_assigned:
-        one: "Sólo puedes apoyar proyectos de gasto de %{count} distrito. Ya has apoyado en %{supported_headings}."
-        other: "Sólo puedes apoyar proyectos de gasto de %{count} distritos. Ya has apoyado en %{supported_headings}."
+        one: "Sólo puedes apoyar proyectos de gasto de %{count} sede. Ya has apoyado en %{supported_headings}."
+        other: "Sólo puedes apoyar proyectos de gasto de %{count} sedes. Ya has apoyado en %{supported_headings}."
   welcome:
     feed:
       most_active:
