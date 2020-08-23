@@ -30,11 +30,6 @@
 // 01. Global styles
 // -----------------
 
-::selection {
-  color: #fff;
-  background-color: $brand;
-}
-
 html,
 body {
   height: 100%;
@@ -61,11 +56,23 @@ p {
   line-height: $base-line;
 }
 
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus,
+li:focus,
+ul:focus,
+ol:focus {
+  outline: none !important;
+}
+
 a {
   color: $link;
 
   &:hover,
-  &:active {
+  &:active,
+  &:focus {
     color: $link-hover;
     text-decoration: underline;
 
@@ -78,24 +85,23 @@ a {
       color: $link-hover;
     }
   }
-
-  &:focus {
-    color: $link-hover;
-    outline: 3px solid #ffbf47;
-  }
 }
 
 .button {
-  background: $brand;
+  background: $black;
+  color: $white;
+
   font-size: $base-font-size;
 
-  &:hover {
+  &:hover, &:focus {
     text-decoration: none !important;
+    background: $gray;
+    color: $black;
   }
 
   &.warning,
   &.warning:hover {
-    color: #000;
+    color: #f4bf30;
   }
 
   &.medium {
@@ -216,7 +222,7 @@ a {
 
 .wrapper {
   min-height: 100%;
-  margin: 0 auto (-$line-height) * 12;
+  margin: 0 auto;
   height: auto !important;
   height: 100%;
 }
@@ -224,7 +230,6 @@ a {
 .footer,
 .push {
   clear: both;
-  min-height: $line-height * 12;
 }
 
 .ie-callout {
@@ -623,10 +628,6 @@ header {
       height: rem-calc(48);
       margin: 0;
       width: auto;
-
-      @include breakpoint(medium up) {
-        height: auto;
-      }
     }
   }
 }
@@ -853,17 +854,6 @@ footer {
     }
   }
 
-  a,
-  a:active,
-  a:focus {
-    color: $text;
-    text-decoration: underline;
-
-    &:hover {
-      color: $text-medium;
-    }
-  }
-
   .footer-sections {
     padding-left: 0;
   }
@@ -875,7 +865,10 @@ footer {
 }
 
 .footer {
-  background: #f1f1f1;
+  *{
+    color: #FFF;
+  }
+  background: #000;
   margin-top: $line-height * 2;
   padding-top: $line-height;
 }
@@ -1172,6 +1165,7 @@ form {
     background-color: $success-bg;
     border-color: $success-border;
     color: $color-success;
+    border-radius: 2px;
   }
 
   &.primary {
@@ -1475,17 +1469,17 @@ form {
 }
 
 .level-1 {
-  background: #1abc9c;
+  background: #1d4ce6;
 }
 
 .level-2,
 .level-3,
 .level-4 {
-  background: #43ac6a;
+  background: #4ac778;
 }
 
 .level-5 {
-  background: #f08a24;
+  background: #b3f024;
 }
 
 // 11. Tables
@@ -1747,6 +1741,7 @@ table {
     height: $line-height;
     position: relative;
     width: $line-height * 2;
+    border-radius: 100%;
 
     &::before {
       content: "f";
@@ -1772,6 +1767,7 @@ table {
     height: rem-calc(24);
     position: relative;
     width: rem-calc(48);
+    border-radius: 100%;
 
     &::before {
       content: "A";
@@ -1797,6 +1793,7 @@ table {
     height: $line-height;
     position: relative;
     width: $line-height * 2;
+    border-radius: 100%;
 
     &::before {
       content: "1";
@@ -2247,10 +2244,6 @@ table {
 
 .flag-active {
   color: $delete;
-}
-
-.dropdown-pane a {
-  color: $text-medium;
 }
 
 // 17. Activity

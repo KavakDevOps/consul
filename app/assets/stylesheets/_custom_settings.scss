@@ -2,5 +2,25 @@
 // Read more on documentation:
 // * English: https://github.com/consul/consul/blob/master/CUSTOMIZE_EN.md#css
 // * Spanish: https://github.com/consul/consul/blob/master/CUSTOMIZE_ES.md#css
-//
-$brand: #583cc8;
+
+$brand: #4c84e0;
+$dark: #0a4080;
+
+$link: $brand;
+$link-hover: $brand;
+
+$success: #8dca1d;
+
+$like: #8dca1d;
+$unlike: #dd2c2c;
+
+$black: #000;
+$white: #fff;
+$gray: #ececec;
+
+$success-bg: $success;
+$success-border: $success;
+$color-success: $white;
+
+$featured: #ffcc5a;
+$proposals: $brand;
