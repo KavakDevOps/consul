@@ -15,6 +15,7 @@ en:
       already_authenticated: "You are already signed in."
       inactive: "Your account has not yet been activated."
       invalid: "Invalid %{authentication_keys} or password."
+      invalid_domain: "The account does not belong to kavak.com."
       locked: "Your account has been locked."
       last_attempt: "You have one more attempt remaining before your account is blocked."
       not_found_in_database: "Invalid %{authentication_keys} or password."
@@ -29,7 +30,7 @@ en:
       unlock_instructions:
         subject: "Unlocking instructions"
     omniauth_callbacks:
-      failure: "It has not been possible to authorize you as %{kind} because \"%{reason}\"."
+      failure: 'It has not been possible to authorize you as %{kind} because "%{reason}".'
       success: "Successfully identified as %{kind}."
     passwords:
       no_token: "You cannot access this page except through a password reset link. If you have accessed it through a password reset link, please check that the URL is complete."

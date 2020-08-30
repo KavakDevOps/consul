@@ -24,11 +24,19 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
   end
 
   private
+    def is_kavak_account?(email)
+      return /@kavak.com\z/.match?(email) 
+    end
 
     def sign_in_with(feature, provider)
       raise ActionController::RoutingError.new("Not Found") unless Setting["feature.#{feature}"]
 
       auth = request.env["omniauth.auth"]
+
+      if feature == :google_login && !is_kavak_account?(auth&.info&.email)
+        flash[:alert] = t("devise.failure.invalid_domain")
+        return redirect_to new_user_registration_path
+      end
 
       identity = Identity.first_or_create_from_oauth(auth)
       @user = current_user || identity.user || User.first_or_initialize_for_oauth(auth)
