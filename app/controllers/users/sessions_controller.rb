@@ -1,5 +1,10 @@
 class Users::SessionsController < Devise::SessionsController
+  before_action :set_native_login, only: [:new] 
+
   private
+    def set_native_login
+      @show_native_login = false
+    end 
 
     def after_sign_in_path_for(resource)
       if !verifying_via_email? && resource.show_welcome_screen?

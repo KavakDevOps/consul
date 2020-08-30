@@ -1,3 +1,5 @@
+<% show_divider |= false %>
+
 <% if feature?(:twitter_login) || feature?(:facebook_login) || feature?(:google_login) %>
 
   <% if current_page?(new_user_session_path) %>
@@ -44,9 +46,11 @@
         </div>
       <% end %>
 
-      <div class="small-12 column auth-divider">
-        <span><%= t("omniauth.or_fill") %></span>
-      </div>
+      <% if show_divider %>
+        <div class="small-12 column auth-divider">
+          <span><%= t("omniauth.or_fill") %></span>
+        </div>
+      <% end %>
     </div>
 
   <% elsif current_page?(new_user_registration_path) %>
@@ -94,9 +98,11 @@
         </div>
       <% end %>
 
-      <div class="small-12 column auth-divider">
-        <span><%= t("omniauth.or_fill") %></span>
-      </div>
+      <% if show_divider %>
+        <div class="small-12 column auth-divider">
+          <span><%= t("omniauth.or_fill") %></span>
+        </div>
+      <% end %>
     </div>
   <% end %>
 

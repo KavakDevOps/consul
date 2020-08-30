@@ -1,6 +1,7 @@
 class Users::RegistrationsController < Devise::RegistrationsController
   prepend_before_action :authenticate_scope!, only: [:edit, :update, :destroy, :finish_signup, :do_finish_signup]
   before_action :configure_permitted_parameters
+  before_action :set_native_signup, only: [:new]
 
   invisible_captcha only: [:create], honeypot: :address, scope: :user
 
@@ -57,6 +58,9 @@ class Users::RegistrationsController < Devise::RegistrationsController
   end
 
   private
+    def set_native_signup
+      @show_native_signup = false
+    end 
 
     def sign_up_params
       params[:user].delete(:redeemable_code) if params[:user].present? && params[:user][:redeemable_code].blank?

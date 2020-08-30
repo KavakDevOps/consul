@@ -1,6 +1,6 @@
 <div class="text-center">
   <%- if controller_name != "sessions" %>
-    <%= link_to t("devise_views.shared.links.login"), new_session_path(resource_name) %><br>
+    <%= link_to t("devise_views.shared.links.already_registered"), new_session_path(resource_name) %><br>
   <% end -%>
 
   <%#- if devise_mapping.registerable? &&
