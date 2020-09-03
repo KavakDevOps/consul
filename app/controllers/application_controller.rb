@@ -5,6 +5,7 @@ class ApplicationController < ActionController::Base
   include HasFilters
   include HasOrders
   include AccessDeniedHandler
+  include GlobalKavakSettings
 
   default_form_builder ConsulFormBuilder
   protect_from_forgery with: :exception
